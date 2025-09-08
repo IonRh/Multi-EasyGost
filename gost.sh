@@ -6,7 +6,7 @@ shell_version="1.1.1"
 ct_new_ver="2.11.2" # 2.x 不再跟随官方更新
 gost_conf_path="/etc/gost/config.json"
 raw_conf_path="/etc/gost/rawconf"
-githubprx="https://github.moeyy.xyz/"
+githubprx="https://ghproxy.badking.pp.ua/"
 function checknew() {
   checknew=$(gost -V 2>&1 | awk '{print $2}')
   # check_new_ver
@@ -1016,7 +1016,7 @@ echo && echo -e "                 gost 一键安装配置脚本"${Red_font_prefi
         (2)能够在不借助其他工具(如screen)的情况下实现多条转发规则同时生效
         (3)机器reboot后转发不失效
   功能: (1)tcp+udp不加密转发, (2)中转机加密转发, (3)落地机解密对接转发
-  帮助文档：https://github.moeyy.xyz/https://github.com/KANIKIG/Multi-EasyGost/Multi-EasyGost
+  帮助文档：https://ghproxy.badking.pp.ua/https://github.com/KANIKIG/Multi-EasyGost/Multi-EasyGost
 
  ${Green_font_prefix}1.${Font_color_suffix} 安装 gost
  ${Green_font_prefix}2.${Font_color_suffix} 更新 gost
